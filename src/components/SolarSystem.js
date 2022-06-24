@@ -10,7 +10,7 @@ class SolarSystem extends React.Component {
         <Title headline="Planetas" />
         <section>
           {
-            Planets.forEach((planet) => (<PlanetCard
+            Planets.map((planet) => (<PlanetCard
               key={ planet.name }
               planetName={ planet.name }
               planetImage={ planet.image }
