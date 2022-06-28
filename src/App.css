@@ -1,3 +1,130 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
 }
+
+.body {
+  background-image: url('images/estrellas-en-el-universo-morado_3000x2000_xtrafondos.com.jpg');
+  color: antiquewhite;
+  font-family: Inconsolata , monospace;
+}
+
+.header {
+  color: white;
+  display: flex;
+  font-family: Inconsolata , monospace;
+  font-size: medium;
+  justify-content: center;
+  padding: 10px;
+}
+
+.titulo-planetas {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.titulo-missoes {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.missions-card {
+  height: 150px;
+  margin: 7px;
+  width: 150px;
+}
+
+.missions {
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: auto;
+  text-align: center;
+
+
+}
+
+.container-missions {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.planet-card {
+  display: inline-block;
+}
+
+.planet-x {
+  font-size: small;
+  margin-left: 130px;
+}
+
+.Mercúrio {
+  height: 24px;
+  left: 115px;
+  margin-right: 100px;
+  top: 668px;
+  width: 71px;
+}
+
+.Vênus {
+  height: 24px;
+  left: 255px;
+  margin-right: 100px;
+  width: 48px;
+}
+
+.Terra {
+  height: 24px;
+  left: 402px;
+  margin-right: 100px;
+  top: 668px;
+  width: 41px;
+}
+
+.Marte {
+  height: 24px;
+  left: 524px;
+  margin-right: 100px;
+  top: 668px;
+  width: 47px;
+}
+
+.Júpiter {
+  height: 24px;
+  left: 690px;
+  margin-right: 100px;
+  top: 668px;
+  width: 52px;
+}
+
+.Saturno {
+  height: 24px;
+  left: 933px;
+  margin-right: 100px;
+  top: 668px;
+  width: 63px;
+}
+
+.Urano {
+  height: 24px;
+  left: 1116px;
+  margin-right: 100px;
+  top: 668px;
+  width: 47px;
+}
+
+.Netuno {
+  height: 24px;
+  left: 1245px;
+  top: 668px;
+  width: 58px;
+}
+
