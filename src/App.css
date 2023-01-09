@@ -2,13 +2,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
-.body {
+.body, footer {
   background-image: url('images/estrellas-en-el-universo-morado_3000x2000_xtrafondos.com.jpg');
   color: antiquewhite;
   font-family: Inconsolata , monospace;
+}
+
+.footer {
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  padding: 5%;
+}
+
+.footer:hover {
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  padding: 5%;
+  text-shadow: 0 0 20px white;
 }
 
 .header {
@@ -20,16 +34,39 @@
   padding: 10px;
 }
 
+.titulo-sistema-solar {
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px #631491 , 0 0 25px #631491;
+  padding: 1%;
+  text-shadow: 0 0 10px rgb(183, 80, 214);
+}
+
 .titulo-planetas {
   display: flex;
   justify-content: center;
   padding: 50px;
 }
 
+.titulo-planetas:hover {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  text-shadow: 0 0 20px white;
+}
+
 .titulo-missoes {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   padding: 80px;
+}
+
+.titulo-missoes:hover {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  text-shadow: 0 0 20px white;
 }
 
 .missions-card {
@@ -41,20 +78,36 @@
 .missions {
   border: 1px solid white;
   border-radius: 15px;
+  box-shadow: inset 0 0 20px #631491 , 0 0 25px #631491;
   color: white;
   display: inline-block;
+  font-size: 15px;
+  justify-content: center;
   margin-left: 20px;
   margin-top: 20px;
-  padding: auto;
+  padding: 40px;
   text-align: center;
+  text-shadow: 0 0 8px rgb(62, 5, 85);
+}
 
-
+.missions:hover {
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: inset 0 0 32px white , 0 0 25px white;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 40px;
+  text-align: center;
+  text-shadow: 0 0 100px rgb(66, 4, 117);
 }
 
 .container-missions {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .planet-card {
@@ -62,69 +115,134 @@
 }
 
 .planet-x {
-  font-size: small;
   margin-left: 130px;
+  padding: 20px;
 }
 
 .Mercúrio {
-  height: 24px;
+  font-size: small;
   left: 115px;
   margin-right: 100px;
-  top: 668px;
+  width: 71px;
+}
+
+.Mercúrio:hover {
+  font-size: large;
+  left: 115px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
   width: 71px;
 }
 
 .Vênus {
-  height: 24px;
+  font-size: small;
   left: 255px;
   margin-right: 100px;
   width: 48px;
 }
 
+.Vênus:hover {
+  font-size: large;
+  left: 255px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
+  width: 48px;
+}
+
 .Terra {
-  height: 24px;
+  font-size: small;
   left: 402px;
   margin-right: 100px;
   top: 668px;
   width: 41px;
 }
 
+.Terra:hover {
+  font-size: large;
+  left: 402px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
+  top: 668px;
+  width: 41px;
+}
+
 .Marte {
-  height: 24px;
+  font-size: small;
   left: 524px;
   margin-right: 100px;
   top: 668px;
   width: 47px;
 }
 
+.Marte:hover {
+  font-size: large;
+  left: 524px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
+  top: 668px;
+  width: 47px;
+}
+
 .Júpiter {
-  height: 24px;
+  font-size: small;
   left: 690px;
   margin-right: 100px;
   top: 668px;
   width: 52px;
 }
 
+.Júpiter:hover {
+  font-size: large;
+  left: 690px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
+  top: 668px;
+  width: 52px;
+}
+
 .Saturno {
-  height: 24px;
+  font-size: small;
   left: 933px;
   margin-right: 100px;
-  top: 668px;
+  width: 63px;
+}
+
+.Saturno:hover {
+  font-size: large;
+  left: 933px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
   width: 63px;
 }
 
 .Urano {
-  height: 24px;
+  font-size: small;
   left: 1116px;
   margin-right: 100px;
   top: 668px;
   width: 47px;
 }
 
+.Urano:hover {
+  font-size: large;
+  left: 1116px;
+  margin-right: 100px;
+  text-shadow: 0 0 20px white;
+  top: 668px;
+  width: 47px;
+}
+
 .Netuno {
-  height: 24px;
+  font-size: small;
   left: 1245px;
   top: 668px;
   width: 58px;
 }
 
+.Netuno:hover {
+  font-size: large;
+  left: 1245px;
+  text-shadow: 0 0 20px white;
+  top: 668px;
+  width: 58px;
+}
